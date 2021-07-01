@@ -17,36 +17,46 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          The sleekest posters on the internet.
+          The sleekest posters on the web!
         </p>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Helvetica Typography</h2>
-            <p>This is a dummy statement that will be replaced later.</p>
-          </a>
+        <ul className={styles.grid}>
+          <li className={styles.card}>
+            <a href="https://nextjs.org/docs" >
+              <img src="images/poster-helvetica.jpg" alt="Helvetica Typography Poster" />
+              <h2>Helvetica Typography</h2>
+              <p>This is a dummy statement that will be replaced later.</p>
+            </a>
+          </li>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Uno Theme</h2>
-            <p>This is a dummy statement that will be replaced later.</p>
-          </a>
+          <li className={styles.card}>
+            <a href="https://nextjs.org/learn">
+              <img src="images/poster-uno.jpg" alt="Uno Poster" />
+              <h2>Uno Theme</h2>
+              <p>This is a dummy statement that will be replaced later.</p>
+            </a>
+          </li>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h2>Online - Offline</h2>
-            <p>This is a dummy statement that will be replaced later.</p>
-          </a>
+          <li className={styles.card}>
+            <a
+              href="https://github.com/vercel/next.js/tree/master/examples"
+            >
+              <img src="images/poster-online.jpg" alt="Online-Offline Poster" />
+              <h2>Online - Offline</h2>
+              <p>This is a dummy statement that will be replaced later.</p>
+            </a>
+          </li>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Do Something</h2>
-            <p>This is a dummy statement that will be replaced later.</p>
-          </a>
-        </div>
+          <li className={styles.card}>
+            <a
+              href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            >
+              <img src="images/poster-do.jpg" alt="Do Something Poster" />
+              <h2>Do Something</h2>
+              <p>This is a dummy statement that will be replaced later.</p>
+            </a>
+          </li>
+        </ul>
       </main>
 
       <footer className={styles.footer}>
